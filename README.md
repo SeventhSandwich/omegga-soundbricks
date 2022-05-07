@@ -45,28 +45,47 @@ to the console command line at the bottom. The four basic commands you can add a
 
 Play a note with a cutoff delay (like a piano)
 sbplay:<note><#><octave>
+
 Examples:
+
 sbplay:A4
+
 sbplay:G#2
 
+
 Play a song/sound effect with a cutoff delay
+
 sbplay:<sound name>
+
 Examples:
+
 sbplay:BA_MUS_Component_APX_Musicbox
 
+
 Play a note in toggle mode (will beep on and off like a heart monitor)
+
 sbtplay:<note><#><octave>
 
+
 Play a song/sound effect in toggle mode
+
 sbtplay:<sound name>
 
+
 Other commands you can add on top of the previous four are:
+
 sbv:[VolumeMultiplier]
+
 sbp:[PitchMultiplier]
+
 sbd:[Cutoff Delay]
+
 sbr:[Inner Radius]
+
 sbm:[Max Distance]
+
 sbs:[Spatialization (true/false)]
+
 
 Example: To play an A4 with 0.5 volume, 200ms cutoff delay, 20 unit radius, 200 unit max distance, and spatialization off:
 sbplay:A4 sbv:0.5 sbd:200 sbr:20 sbm:200 sbs:false

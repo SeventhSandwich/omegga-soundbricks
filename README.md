@@ -44,7 +44,8 @@ To turn a regular brick into a SoundBrick, add an interact component and navigat
 to the console command line at the bottom. The four basic commands you can add are:
 
 **Play a note with a cutoff delay (like a piano)**
-sbplay:<note><#><octave>
+
+sbplay:[note][#][octave]
 
 Examples:
 
@@ -55,7 +56,7 @@ sbplay:G#2
 
 **Play a song/sound effect with a cutoff delay**
 
-sbplay:<sound name>
+sbplay:[sound name]
 
 Examples:
 
@@ -64,12 +65,12 @@ sbplay:BA_MUS_Component_APX_Musicbox
 
 **Play a note in toggle mode (will beep on and off like a heart monitor)**
 
-sbtplay:<note><#><octave>
+sbtplay:[note][#][octave]
 
 
 **Play a song/sound effect in toggle mode**
 
-sbtplay:<sound name>
+sbtplay:[sound name]
 
 
 **Other commands you can add on top of the previous four are:**

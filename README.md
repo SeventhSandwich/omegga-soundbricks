@@ -114,3 +114,61 @@ This data is not carried with your save.
 Always save your build with the bricks in the toggled OFF mode to ensure that the
 SoundBrick behaves consistently. A brick that is toggled ON will have a string
 in the format of sbt{[lots of numbers]} in the interact component console command line.
+
+## An incomplete list of valid sound names
+
+At least for now, this plugin requires a strictly correct sound name.
+I don't have a full list of all the sounds, but it is pretty easy to guess them from the short name.
+To make it easier, here is a partial list of all the sounds in Brickadia:
+```
+BA_AirRaidSiren1
+BA_AMB_Component_Alarm_Scifi_Creepy
+BA_AMB_Component_Alarm_Scifi_Warning_1
+BA_AMB_Component_Alarm_Scifi_Warning_2
+BA_AMB_Component_Alarm_Scifi_Warning_3
+BA_NeonLight1
+BA_AMB_Component_Air_Conditioning_Buzzy_1
+BA_AMB_Component_Air_Conditioning_Buzzy_2
+BA_AMB_Component_Air_Conditioning_Grungy
+BA_AMB_Component_Air_Conditioning_Wobbly
+BA_AMB_Component_Fires_Fireplace_1
+BA_AMB_Component_Hospital_Misc_Respirator
+BA_AMB_Component_Hospital_Monitors_Heart_1
+BA_AMB_Component_Hospital_Monitors_Heart_2
+BA_AMB_Component_Hospital_Monitors_Heart_3
+BA_AMB_Component_Automated_Vending
+BA_RadioStatic1
+BA_Old_Computer
+BA_Printer
+BA_MUS_Component_Custard
+BA_MUS_Component_El_Duo
+BA_MUS_Component_Fountaintail
+BA_MUS_Component_Solution_Not_Forthcoming
+BA_MUS_Component_Morning_Dream
+BA_MUS_Component_Thunderpunch_A
+BA_MUS_Component_Thunderpunch_B
+BA_MUS_Component_Thunderpunch_Drone
+BA_MUS_Component_OST_90s
+BA_MUS_Component_OST_Aesthetics
+BA_MUS_Component_OST_Drifting_in_Space
+BA_MUS_Component_OST_Familiar
+BA_MUS_Component_OST_Frozen_Moo
+BA_MUS_Component_OST_Hard_Bass
+BA_MUS_Component_OST_Imposter
+BA_MUS_Component_OST_Pensive
+BA_MUS_Component_OST_SoundsGood
+BA_MUS_Component_OST_Spunky
+BA_MUS_Component_OST_Strategize
+BA_MUS_Component_OST_Vibe
+BA_MUS_Component_Retro_Boss
+BA_MUS_Component_Retro_Menu
+BA_MUS_Component_Retro_Stage_1
+BA_MUS_Component_Retro_Stage_2
+BA_MUS_Component_Retro_Stage_3
+BA_MUS_Component_Retro_Stage_4
+BA_MUS_Component_Retro_Stage_5
+BA_Water_Flowing_Calm
+BA_Water_Flowing_Fountain
+BA_Water_Flowing_Waterfall
+BA_Water_Flowing_Waves
+```

@@ -113,4 +113,4 @@ This data is not carried with your save.
 
 Always save your build with the bricks in the toggled OFF mode to ensure that the
 SoundBrick behaves consistently. A brick that is toggled ON will have a string
-in the format of sbt{<numbers>} in the interact component console command line.
+in the format of sbt{[lots of numbers]} in the interact component console command line.

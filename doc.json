@@ -1,0 +1,23 @@
+{
+  "name": "SoundBricks",
+  "description": "Allow interact components to temporarily play and toggle sound effects.",
+  "author": "SeventhSandwich",
+  "config": {
+    "Whitelist Mode": {
+      "description": "Only play SoundBricks of whitelisted users.",
+      "type": "boolean",
+      "default": false
+    },
+    "Whitelisted Players": {
+      "description": "List of players who can place new SoundBricks",
+      "type": "players",
+      "default": []
+    },
+    "Maximum Sound Length (ms)": {
+  		"description": "Maximum delay time for a sound.",
+  		"default": 3000,
+  		"type": "number"
+	   }
+  },
+  "commands": []
+}
